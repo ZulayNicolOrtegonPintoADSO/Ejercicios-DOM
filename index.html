@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 2 DOM</title>
-    <link rel="stylesheet" href="style.css">
+    <title>USO DEL DOM</title>
     <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
+    <h1>EJERCICIO 2</h1>
+    <h2>"Desarrolle un algoritmo para la empresa Constructora Tecnovivir Casas C.A., que le permita calcular e" imprimir
+        la nómina para su cancelación a un total de 50 obreros calificados a quienes debe cancelar por horas trabajadas.
+        La hora trabajada se pautó en 5,208.33 Pesos.</h2>
+
+    <div class="container">
+        <form id="nomina">
+            <label class="centrado">Nombre del trabajador:</label>
+            <input type="text" name="nombre" pattern="[a-z A-Z]+" title="Ingrese solo letras." required>
+
+            <label>Cantidad de horas trabajadas:</label>
+            <input type="text" name="horas" pattern="[0-9.]+" title="Ingrese solo numeros" id="h3">
+ 
+            <input type="submit" value="Calcular">
+        </form>
+    </div>
+
 </body>
+
 </html>
+
