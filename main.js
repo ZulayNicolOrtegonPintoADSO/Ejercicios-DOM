@@ -26,7 +26,5 @@ function proceso(){
         respuesta.innerText= rta
     }else{
         respuesta.innerText="NECIOO 😠,Vuelve a intentarlo con los parámetros establecidos 😒"
-    }
-
-    
+    }  
 }
