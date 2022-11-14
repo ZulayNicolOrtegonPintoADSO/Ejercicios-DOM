@@ -2,10 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-align: center;
-    background-color: black;
-    color:rgb(255, 255, 255)
 }
 
 h1{
@@ -30,7 +27,8 @@ label{
 
 input , button{
     font-size: 25px;
-    border-color: rgb(255, 0, 123);
+    border-color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .container{
