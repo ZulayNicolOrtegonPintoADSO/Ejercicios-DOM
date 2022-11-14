@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USO DEL DOM</title>
-    <script src="main.js"></script>
     <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 2</title>
 </head>
-
 <body>
-    <h1>EJERCICIO 2</h1>
-    <h2>"Desarrolle un algoritmo para la empresa Constructora Tecnovivir Casas C.A., que le permita calcular e" imprimir
-        la nómina para su cancelación a un total de 50 obreros calificados a quienes debe cancelar por horas trabajadas.
-        La hora trabajada se pautó en 5,208.33 Pesos.</h2>
+    <h1> EJERCICIO 3 </h1>
+   
+    <h2>
+         Dados dos números enteros positivos N y D, se dice que D es un divisor de N si el resto de dividir N entre D es 0. Se dice que un número N es perfecto si la suma de sus divisores (excluido el propio N) es N. Por ejemplo 28 es perfecto, pues sus divisores (excluido elv28) son: 1, 2, 4, 7 y 14 y su suma es 1+2+4+7+14=28. Hacer un organigrama que dado un número N nos diga si es o no perfecto.
+    </h2>
 
-    <div class="container">
-        <form id="nomina">
-            <label class="centrado">Nombre del trabajador:</label>
-            <input type="text" name="nombre" pattern="[a-z A-Z]+" title="Ingrese solo letras." required>
+    <br>
 
-            <label>Cantidad de horas trabajadas:</label>
-            <input type="text" name="horas" pattern="[0-9.]+" title="Ingrese solo numeros" id="h3">
- 
-            <input type="submit" value="Calcular">
-        </form>
+    <label>Solo coloque números enteros positivos señor usuario, de lo contrario el programa no se ejecutará. gracias</label><br>
+    <br>
+    <div class="container"> 
+        <input type="text" id="n" placeholder="Número N"> <br>
+
+        <input type="text" id="d" placeholder="Número D"> <br>
+
+        <button id="calcular"> calcular </button>
+
+        <p id="resp">--</p>
     </div>
-
+    <script src="main.js"></script>
 </body>
-
 </html>
 
